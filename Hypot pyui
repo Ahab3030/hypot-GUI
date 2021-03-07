@@ -1,0 +1,157 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{91, 135}, {200, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "uuid" : "3561FA00-8A56-4025-97B3-02C02273B2A1",
+          "corner_radius" : 1,
+          "frame" : "{{99, 268}, {200, 32}}",
+          "border_width" : 1,
+          "action" : "",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "font_name" : "<System>",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "name" : "Length",
+          "font_size" : 17
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{147, 95}, {73, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "l1",
+          "frame" : "{{124, 268}, {150, 32}}",
+          "uuid" : "F543DD86-BF62-4E3F-BE89-5CB4A86E8281",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Length",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{91, 252}, {200, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "name" : "Width",
+          "border_width" : 1,
+          "frame" : "{{99, 268}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "0BEA97BC-37BF-4347-BF38-34E3734717D9",
+          "alignment" : "left",
+          "corner_radius" : 1,
+          "autocorrection_type" : "default",
+          "font_size" : 17,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{147, 212}, {62, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "l2",
+          "frame" : "{{124, 268}, {150, 32}}",
+          "uuid" : "343ECFDA-5A90-4193-9D83-221B3679F036",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Width",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{147, 314}, {80, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "border_width" : 1,
+          "action" : "buttonTapped",
+          "frame" : "{{159, 268}, {80, 32}}",
+          "title" : "Calculate",
+          "uuid" : "0A256FC0-F3AE-452F-A602-31553589E331",
+          "class" : "Button",
+          "corner_radius" : 1,
+          "name" : "calc",
+          "font_size" : 15
+        },
+        "selected" : true
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{91, 428}, {219, 51}}",
+        "class" : "TextView",
+        "attributes" : {
+          "uuid" : "EEA83FEC-38FB-434A-8D85-5EF8CEB2151F",
+          "font_size" : 17,
+          "corner_radius" : 1,
+          "frame" : "{{99, 184}, {200, 200}}",
+          "editable" : false,
+          "border_width" : 1,
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "font_name" : "<System>",
+          "spellchecking_type" : "default",
+          "class" : "TextView",
+          "name" : "hypot",
+          "flex" : "WH"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{126, 388}, {107, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "label3",
+          "border_width" : 0,
+          "frame" : "{{124, 268}, {150, 32}}",
+          "uuid" : "99E22DDF-1838-4E8B-892F-751A19B7F06E",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Hypotenuse",
+          "corner_radius" : 0,
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {398, 567}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
