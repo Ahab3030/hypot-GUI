@@ -1,0 +1,31 @@
+import ui
+import math
+
+# define view?
+
+view = ui.View
+
+# established variable for length in gui
+
+def A():
+	view['Length']
+
+# established variable for width in gui
+
+def B():
+	view['Width']
+
+# perform hypot equation on A and B
+
+def C(A, B):
+	math.hypot(float(A), float(B))
+
+# attempt at putting C value in hypot(answer line) after button push
+
+def buttonTapped(C):
+	view['hypot']
+	
+# load up gui from desinger, converted to json for readability. (maybe...)
+
+v = ui.load_view()
+v.present('sheet')
